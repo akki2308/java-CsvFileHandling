@@ -21,10 +21,8 @@ public class StudentCSVReader {
                 String marks = values[3];
 
                 // Print in structured format
-                System.out.println("ID    : " + id);
-                System.out.println("Name  : " + name);
-                System.out.println("Age   : " + age);
-                System.out.println("Marks : " + marks);
+                System.out.println("ID: " + id + ", Name: " + name + ", Age: " + age + ", Marks: " + marks);
+
                 System.out.println("--------------------------");
             }
 
